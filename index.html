@@ -10,7 +10,7 @@
     <div class="fundo">
         <div class="Calculadora">
             <h2>Calculadora</h2>
-            <p id="resultado"></p>
+             <input type="text" id="resultado" readonly> 
           <table>
               <tr>
                 <td><button class="botao" onclick="limpar('')">C</button></td>
@@ -34,11 +34,12 @@
               <td><button class="botao" onclick="inserir('1')">1</button></td>
               <td><button class="botao" onclick="inserir('2')">2</button></td>
               <td><button class="botao" onclick="inserir('3')">3</button></td>
-              <td rowspan="2"><button class="botao" onclick="Calcular('=')" style="height: 168px;">=</button></td>
+              <td rowspan="2">
+                <button class="botao" onclick="Calcular('=')" style="height: 168px;">=</button></td>
              </tr>
              <tr>
               <td colspan="2"><button class="botao" onclick="inserir('0')" style="width:172px;">0</button></td>
-              <td><button class="botao" onclick="">.</button></td>
+              <td><button class="botao" onclick="inserir('.')">.</button></td>
              </tr>
           </table>
         </div>

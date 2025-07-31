@@ -5,9 +5,14 @@
 .fundo{
     
     background-image: linear-gradient(5deg,black, rgb(4, 91, 4));
-    height: 100vb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
     color: white;
-    font-size: 20px;    
+    font-size: 20px; 
+
 }
 .fundo > p {
     color: white;
@@ -15,8 +20,7 @@
     font-family: 'Times New Roman', Times, serif;
     
 }
-.Calculadora{
-     display:block;
+.Calculadora {
      background-color:rgba(0, 0, 0, 0.81);
      position: absolute;
      top:50%;
@@ -26,7 +30,6 @@
      border: none;
      border-radius: 5px;
     
-   
 }
 
 .Calculadora > h2{
@@ -35,8 +38,7 @@
     margin-top: 10px;
     margin-bottom: 21px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    
+       
 }
 .botao{
     background-color: gray;
@@ -49,7 +51,8 @@
     font-family: 'Times New Roman', Times, serif;
     transition: all 0.2s ease;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
+    
 }
 .botao::before {
     content: "";
@@ -59,7 +62,7 @@
     width: 100%;
     height: 100%;
     background-color: rgb(41, 41, 41);
-    transition: all 0.1s ease;
+    transition: all 0.01s ease;
     z-index: -1;
 }
 .botao:hover::before{
