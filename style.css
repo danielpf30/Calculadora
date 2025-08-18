@@ -5,7 +5,7 @@
 .fundo{
     
     background-image: linear-gradient(5deg,black, rgb(4, 91, 4));
-    min-height: 100vh;
+    min-height:91dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,7 @@
 }
 
 .Calculadora {
+     height: 93dvh;
      background-color:rgba(0, 0, 0, 0.81);
      position: absolute;
      top:50%;
